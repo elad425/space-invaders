@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E225" />
+          <option value="E302" />
+          <option value="E231" />
+          <option value="E712" />
+          <option value="E501" />
+          <option value="E122" />
+          <option value="W191" />
+          <option value="E262" />
+          <option value="E228" />
+          <option value="E701" />
+          <option value="E741" />
+          <option value="E111" />
+          <option value="E261" />
+          <option value="E401" />
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="sum" />
+          <option value="set" />
+          <option value="max" />
+          <option value="dir" />
+          <option value="min" />
+          <option value="list" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pygame.sprite.Sprite.lasers" />
+          <option value="pygame.sprite.Sprite.haunt" />
+          <option value="pygame.sprite.Sprite.turn_ghost" />
+          <option value="pygame.sprite.Sprite.turn_alien" />
+          <option value="pygame.sprite.Sprite.get_ghost_state" />
+          <option value="pygame.sprite.Sprite.get_alien_state" />
+          <option value="pygame.sprite.Sprite.get_color" />
+          <option value="pygame.sprite.Sprite.turn_dead" />
+          <option value="pygame.sprite.Sprite.dead_state" />
+          <option value="pygame.sprite.Sprite.get_dead_state" />
+          <option value="pygame.sprite.Sprite.get_pos" />
+          <option value="pygame.sprite.Sprite.flash_black" />
+          <option value="pygame.sprite.Sprite.flash_white" />
+          <option value="pygame.sprite.Sprite.get_y" />
+          <option value="pygame.sprite.Sprite.get_x" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
